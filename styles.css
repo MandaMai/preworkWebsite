@@ -1,0 +1,320 @@
+@charset "UTF-8";
+/* CSS Document */
+/*Font Notes
+font-family: 'Oswald', sans-serif; -- Main Headings
+font-family: 'Raleway', sans-serif; --Main Content
+font-family: 'Rock Salt', cursive; --Journal Headings
+font-family: 'Fondamento', cursive; - All Titles on All Pages
+Contenders for Journal text
+font-family: 'Sue Ellen Francisco', cursive;
+font-family: 'Averia Serif Libre', cursive;
+font-family: 'La Belle Aurore', cursive;
+font-family: 'Amatic SC', cursive;
+*/
+/*Main site formatting*/
+body {
+	font-family: 'Raleway', 'Oswald', sans-serif;
+	background-image:url("pictures/westeros6.png");
+	background-color: #3f5765;
+	
+}
+
+nav {
+	font-family: 'Oswald', 'Raleway', sans-serif;
+	position:fixed;
+	top: 0px;
+	background-color: #2b3a42;
+	width: 100%;
+	z-index: 1;
+}
+
+
+button {
+	font-family: 'Oswald', 'Raleway', sans-serif;
+	font-weight: 300;
+	border:none;
+	font-size: .85em;
+	background-color: transparent;
+}
+
+
+
+.main-nav {
+	font-family: 'Oswald', 'Raleway', sans-serif;
+	font-weight: 300;
+	border:none;
+	color:#bdd4de;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+
+.main-nav:hover {
+	color: #bdd4de;
+}
+.clearfix {
+	overflow: auto;
+	zoom: 1;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+header {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	background-color: #2b3a42;
+}
+
+header h1 {
+	color: #3f5765;
+	margin: 25px 0 -25px 0;
+}
+
+header h2 {
+	margin-bottom: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+article {
+	width:100%;
+}
+
+.emailLine	{
+	font-family: 'Oswald', 'Raleway', sans-serif;
+	font-size: .90em;
+}
+
+.email {
+		font-family: 'Oswald', 'Raleway', sans-serif;
+	font-weight: 300;
+	border:none;
+	color:#2b3a42;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+.email:hover {
+	color: #bdd4de;
+}
+
+h1 {
+	font-family: 'Fondamento', cursive;
+	font-weight: 400;
+	/*color:#2b3a42;*/
+	font-size: 4em;
+	text-shadow: 0 0 5px #3f5765;
+	/*text-shadow: 0 1px 0 #ccc,
+				 0 2px 0 #c9c9c9,
+		0 3px 0 #bbb,
+		0 4px 0 #b9b9b9,
+		0 5px 0 #aaa,
+		0 6px 1px rgba(0,0,0, .1),
+		0 0 5px rgba(0,0,0,.1),
+		0 1px 3px rgba(0,0,0,.3),
+		0 3px 5px rgba(0,0,0,.2),
+		0 5px 10px rgba(0,0,0,.25),
+		0 10px 10px rgba(0,0,0.2),
+		0 20px 20px rbga(0,0,0.15);*/
+	
+}
+
+h2 {
+	font-family: 'Oswald', 'Raleway', sans-serif;
+	color:#2b3a42;
+}
+
+h3 {
+	font-family: 'Oswald', 'Raleway', sans-serif;
+	color:#bdd4de;
+}
+
+h4 {
+	font-family: 'Oswald', 'Raleway', sans-serif;
+	color: #bdd4de;
+}
+
+p{
+	color:#2b3a42;
+	font-weight:700;
+}
+
+figcaption {
+	color:#bdd4de;
+	font-size: .75em;
+}
+
+.copyright {
+	font-style: italic;
+	font-size: .75em;
+}
+
+main {
+	padding-top: 150px;
+	margin: 150px;
+	
+	
+}
+
+.bkimg {
+	background-color: #bdd4de;
+	opacity: .4;
+}
+
+img {
+	border-radius: 50%;
+	border: solid 4px white;
+	
+}
+/*Journal Site Formatting*/
+.journalDate
+{
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-top: -15px;
+	margin-bottom: -20px;
+	color: #2b3a42;
+}
+.journalMarker {
+font-family: 'Sue Ellen Francisco', cursive;
+	font-size: 1.5em;
+}
+
+.journalCursive {
+font-family: 'La Belle Aurore', cursive;
+	font-size: 1.5em;
+}
+.journalThin {
+font-family: 'Amatic SC', cursive; 
+	font-size: 1.5em;
+}
+
+.fontList {
+	background-color: #bdd4de;
+	border-radius: 50%;
+	border: solid 4px white;
+	height: 275px;
+	width: 275px;
+	margin-top: -10px;
+	text-align: center;
+	box-shadow: 0px 5px 10px 5px rgba(0,0,0, .4);
+}
+.fontList h2{
+	margin-top: 50px;
+	
+}
+.fontText {
+	margin-left: -40px;
+}
+/*Quest Site Formatting*/
+
+.minorQuests
+{
+	width: 30%;
+	position: fixed;
+	display: inline;
+	margin-left: 20px;
+	z-index:1;
+}
+.minorQuests h2 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.majorQuests h2 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.majorQuests {
+	width: 70%;
+	position: fixed;
+	display: inline;
+	margin-left: 35%;
+}
+table {
+	border-collapse: collapse;
+	margin-bottom: 20px;
+	display: inline;
+}
+
+.minorQuests td {
+	border: solid 2px #2b3a42;
+	height: 20px;
+	width: 20px;
+	margin: -5px;
+	padding: -5px;
+}
+
+.minorQuests .questName {
+	border: none;
+	padding-right: 20px;
+}
+
+.minorQuests .progress {
+	border:none;
+	width: 30px;
+	margin-left: 25px;
+	text-align: right;
+	font-family: 'Oswald', 'Raleway', sans-serif;
+	color: #2b3a42;
+	font-size: 1.25em;
+}
+
+
+
+.minorQuests
+
+#minorContainer button {
+	height:20px;
+	width:20px;
+}
+.majorQuests td {
+	border: solid 2px #2b3a42;
+	height: 40px;
+	width: 25px;
+	margin: -5px;
+	padding: -5px;
+}
+
+.majorQuests .questName {
+	border: none;
+	padding-right: 20px;
+}
+
+.majorQuests .progress {
+	border:none;
+	width: 30px;
+	margin-left: 25px;
+	text-align: right;
+	font-family: 'Oswald', 'Raleway', sans-serif;
+	color: #2b3a42;
+	font-size: 1.75em;
+}
+
+.questUpdate {
+	display: inline;
+	font-size: 1em;
+}
+
+.blue {
+	background-color: #3f5765;
+}
+/*to use this, you just need to add this code to the HTML cells you are filling in*/
+/*<td><button class="updateBlue"></button></td>*/
+.updateBlue {
+	height:105%;
+	width: 110%;
+	margin-left: -1px;
+	border: none;
+}
+/*Link Site Formatting*/
+
+/*Other Site Formatting*/
